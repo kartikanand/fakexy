@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | fakexy</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A wrapper over fakexy.com"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fakexy"><meta property="twitter:description" content="A wrapper over fakexy.com"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/kartikanand/fakexy.js"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getAddress">getAddress</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCreditcard">getCreditcard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPhonenumbers">getPhonenumbers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getProfile">getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getZipcodes">getZipcodes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-COUNTRIES">COUNTRIES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CREDITCARDS">CREDITCARDS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STATES">STATES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Address">Address</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Creditcard">Creditcard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Phonenumber">Phonenumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Profile">Profile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Zipcode">Zipcode</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="fakexy-js">fakexy.js</h1><p>A wrapper over fakexy.com</p>
+<h2 id="install">Install</h2><pre><code><code class="source-code prettyprint">npm install fakexy</code>
+</code></pre><h2 id="usage">Usage</h2><pre><code class="lang-javascript"><code class="source-code prettyprint">import {
+    getAddress,
+    getProfile,
+    getPhonenumbers,
+    getZipcodes,
+    getCreditcard
+} from fakexy;
+
+console.log(getAddress({ countryCode: &apos;us&apos; }));
+// {
+//   Street: &apos;887 Battlefield Pkwy&apos;,
+//   &apos;City/Town&apos;: &apos;Fort Oglethorpe&apos;,
+//   &apos;State/Province/Region&apos;: &apos;Georgia&apos;,
+//   &apos;Zip/Postal Code&apos;: &apos;30742&apos;,
+//   &apos;Phone Number&apos;: &apos;(706) 861-3337&apos;,
+//   Country: &apos;United States&apos;,
+//   Latitude: &apos;34.95409&apos;,
+//   Longitude: &apos;-85.251194&apos;
+// }
+
+console.log(getProfile({ countryCode: &apos;us&apos;, stateCode: &apos;ca&apos; }));
+// {
+//   &apos;Full Name&apos;: &apos;Rhianna Keebler&apos;,
+//   Gender: &apos;female&apos;,
+//   Birthday: &apos;1975-01-15&apos;,
+//   &apos;Social Security Number&apos;: &apos;551-99-4513&apos;
+// }
+
+console.log(getPhonenumbers({ countryCode: &apos;us&apos;, stateCode: &apos;ca&apos; }));
+// {
+//   &apos;(510) 879-7026&apos;: &apos;(CA, Emeryville)&apos;,
+//   &apos;(714) 692-8394&apos;: &apos;(CA, Yorba Linda)&apos;,
+//   &apos;(760) 722-7031&apos;: &apos;(CA, Oceanside)&apos;,
+//   &apos;(415) 931-9103&apos;: &apos;(CA, San Francisco)&apos;,
+//   &apos;(707) 544-3833&apos;: &apos;(CA, Santa Rosa)&apos;,
+//   &apos;&apos;: &apos;(CA, Pomona)&apos;,
+//   &apos;(209) 526-9274&apos;: &apos;(CA, Modesto)&apos;,
+//   &apos;(661) 257-3233&apos;: &apos;(CA, Castaic)&apos;,
+//   &apos;(805) 693-4331&apos;: &apos;(CA, Solvang)&apos;,
+//   &apos;(213) 280-1152&apos;: &apos;(CA, Studio City)&apos;,
+//   &apos;(661) 266-9464&apos;: &apos;(CA, Palmdale)&apos;,
+//   &apos;(323) 569-4949&apos;: &apos;(CA, South Gate)&apos;
+// }
+
+console.log(getZipcodes({ countryCode: &apos;us&apos;, stateCode: &apos;ca&apos; }));
+// {
+//   &apos;90250&apos;: &apos;(CA, Hawthorne)&apos;,
+//   &apos;90504&apos;: &apos;(CA, Torrance)&apos;,
+//   &apos;90807&apos;: &apos;(CA, Long Beach)&apos;,
+//   &apos;91010&apos;: &apos;(CA, Duarte)&apos;,
+//   &apos;91104&apos;: &apos;(CA, Pasadena)&apos;,
+//   &apos;91204&apos;: &apos;(CA, Glendale)&apos;,
+//   &apos;92243&apos;: &apos;(CA, El Centro)&apos;,
+//   &apos;92376&apos;: &apos;(CA, Rialto)&apos;,
+//   &apos;92653&apos;: &apos;(CA, Laguna Hills)&apos;,
+//   &apos;93465&apos;: &apos;(CA, Templeton)&apos;,
+//   &apos;94063&apos;: &apos;(CA, Redwood City)&apos;
+// }
+
+console.log(getCredicard({ creditcardBrand: &apos;visa&apos; }));
+// {
+//   &apos;Credit card brand&apos;: &apos;Visa&apos;,
+//   &apos;Credit card number&apos;: &apos;4539780566426911&apos;,
+//   Expire: &apos;2023/10&apos;,
+//   CVV: &apos;998&apos;
+// }</code>
+</code></pre>
+<h2 id="api">API</h2><p><a href="https://www.kartikanand.com/fakexy.js/identifiers.html">Docs</a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,1110 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "fakexy.js/.external-ecmascript.js",
+    "static": true,
+    "longname": "fakexy.js/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "fakexy.js/consts.js",
+    "content": "/**\n * @desc List of supported credit card brands\n * @constant\n * @type {string[]}\n * @default\n */\nexport const CREDITCARDS = [\n  'amex',\n  'diners',\n  'discover',\n  'enroute',\n  'jcb',\n  'mastercard',\n  'unionpay',\n  'visa',\n  'voyager',\n];\n\n/**\n * @desc List of supported countries\n * @constant\n * @type {string[]}\n * @default\n */\nexport const COUNTRIES = [\n  'be',\n  'ca',\n  'cz',\n  'fr',\n  'de',\n  'gr',\n  'hu',\n  'in',\n  'it',\n  'mx',\n  'nl',\n  'pl',\n  'pt',\n  'ro',\n  'es',\n  'se',\n  'uk',\n  'us',\n  'us',\n  'us',\n  'us',\n];\n\n/**\n * @desc List of supported states per country\n * @constant\n * @type {{countryCode: string[]}}\n * @default\n */\nexport const STATES = {\n  be: [\n    'antwerp',\n    'brussels',\n    'east-flanders',\n    'flemish-brabant',\n    'hainaut',\n    'liege',\n    'limburg',\n    'luxembourg',\n    'namur',\n    'walloon-brabant',\n    'west-flanders',\n  ],\n  ca: ['ab', 'bc', 'mb', 'nb', 'nl', 'nt', 'ns', 'on', 'pe', 'qc', 'sk', 'yt'],\n  cz: [\n    'central-bohemian',\n    'hradec-kralove',\n    'karlovy-vary',\n    'liberec',\n    'moravian-silesian',\n    'olomouc',\n    'pardubice',\n    'plzen',\n    'prague',\n    'south-bohemian',\n    'south-moravian',\n    'usti-nad-labem',\n    'vysocina',\n    'zlin',\n  ],\n  fr: [\n    'ain',\n    'aisne',\n    'allier',\n    'alpes-de-haute-provence',\n    'alpes-maritimes',\n    'aube',\n    'aude',\n    'aveyron',\n    'bas-rhin',\n    'bouches-du-rhone',\n    'calvados',\n    'cantal',\n    'charente-maritime',\n    'cher',\n    'correze',\n    'corse-du-sud',\n    'cote-d-or',\n    'cotes-d-armor',\n    'deux-sevres',\n    'dordogne',\n    'drome',\n    'essonne',\n    'eure',\n    'eure-et-loir',\n    'finistere',\n    'gers',\n    'gironde',\n    'guadeloupe',\n    'guyane',\n    'haut-rhin',\n    'haute-corse',\n    'haute-garonne',\n    'haute-marne',\n    'haute-savoie',\n    'haute-vienne',\n    'hautes-alpes',\n    'hautes-pyrenees',\n    'hauts-de-seine',\n    'herault',\n    'ille-et-vilaine',\n    'indre-et-loire',\n    'isere',\n    'jura',\n    'landes',\n    'loir-et-cher',\n    'loire',\n    'loire-atlantique',\n    'loiret',\n    'lot-et-garonne',\n    'maine-et-loire',\n    'manche',\n    'marne',\n    'martinique',\n    'mayenne',\n    'meurthe-et-moselle',\n    'morbihan',\n    'moselle',\n    'nievre',\n    'nord',\n    'oise',\n    'paris',\n    'pas-de-calais',\n    'puy-de-dome',\n    'pyrenees-atlantiques',\n    'pyrenees-orientales',\n    'reunion',\n    'rhone',\n    'saone-et-loire',\n    'sarthe',\n    'savoie',\n    'seine-et-marne',\n    'seine-maritime',\n    'seine-saint-denis',\n    'somme',\n    'tarn',\n    'tarn-et-garonne',\n    'territoire-de-belfort',\n    'val-d-oise',\n    'val-de-marne',\n    'var',\n    'vaucluse',\n    'vendee',\n    'vienne',\n    'yonne',\n    'yvelines',\n  ],\n  de: [\n    'bw',\n    'by',\n    'bb',\n    'hh',\n    'he',\n    'ni',\n    'mv',\n    'nw',\n    'rp',\n    'sl',\n    'sn',\n    'st',\n    'sh',\n    'th',\n  ],\n  gr: [\n    'attica',\n    'central-greece',\n    'central-macedonia',\n    'crete',\n    'east-macedonia-and-thrace',\n    'epirus',\n    'ionian-islands',\n    'north-aegean',\n    'peloponnese',\n    'south-aegean',\n    'thessaly',\n    'west-greece',\n    'west-macedonia',\n  ],\n  hu: [\n    'bacs-kiskun',\n    'baranya',\n    'bekes',\n    'borsod-abauj-zemplen',\n    'budapest',\n    'csongrad-csanad',\n    'fejer',\n    'gyor-moson-sopron',\n    'hajdu-bihar',\n    'heves',\n    'jasz-nagykun-szolnok',\n    'komarom-esztergom',\n    'nograd',\n    'pest',\n    'somogy',\n    'szabolcs-szatmar-bereg',\n    'tolna',\n    'vas',\n    'veszprem',\n    'zala',\n  ],\n  in: [\n    'andhra-pradesh',\n    'assam',\n    'bihar',\n    'chhattisgarh',\n    'delhi',\n    'goa',\n    'gujarat',\n    'haryana',\n    'himachal-pradesh',\n    'jammu-and-kashmir',\n    'jharkhand',\n    'karnataka',\n    'kerala',\n    'madhya-pradesh',\n    'maharashtra',\n    'odisha',\n    'punjab',\n    'rajasthan',\n    'tamil-nadu',\n    'telangana',\n    'uttar-pradesh',\n    'uttarakhand',\n    'west-bengal',\n  ],\n  it: [\n    'agrigento',\n    'alessandria',\n    'ancona',\n    'aosta',\n    'arezzo',\n    'ascoli-piceno',\n    'asti',\n    'avellino',\n    'bari',\n    'barletta-andria-trani',\n    'belluno',\n    'benevento',\n    'bergamo',\n    'biella',\n    'bologna',\n    'bolzano-bozen',\n    'brescia',\n    'brindisi',\n    'cagliari',\n    'caltanissetta',\n    'campobasso',\n    'caserta',\n    'catania',\n    'catanzaro',\n    'chieti',\n    'como',\n    'cosenza',\n    'cremona',\n    'crotone',\n    'cuneo',\n    'enna',\n    'fermo',\n    'ferrara',\n    'firenze',\n    'foggia',\n    'forli-cesena',\n    'frosinone',\n    'genoa',\n    'gorizia',\n    'grosseto',\n    'imperia',\n    'isernia',\n    'l-aquila',\n    'la-spezia',\n    'latina',\n    'lecce',\n    'lecco',\n    'livorno',\n    'lodi',\n    'lucca',\n    'macerata',\n    'mantua',\n    'massa-carrara',\n    'matera',\n    'messina',\n    'milano',\n    'modena',\n    'monza-and-brianza',\n    'napoli',\n    'novara',\n    'nuoro',\n    'ogliastra',\n    'olbia-tempio',\n    'oristano',\n    'padua',\n    'palermo',\n    'parma',\n    'pavia',\n    'perugia',\n    'pesaro-e-urbino',\n    'pescara',\n    'piacenza',\n    'pisa',\n    'pistoia',\n    'pordenone',\n    'potenza',\n    'prato',\n    'ravenna',\n    'reggio-calabria',\n    'reggio-emilia',\n    'republic-of-san-marino',\n    'rieti',\n    'rimini',\n    'roma',\n    'rovigo',\n    'salerno',\n    'sassari',\n    'savona',\n    'siena',\n    'siracusa',\n    'sondrio',\n    'taranto',\n    'teramo',\n    'terni',\n    'trapani',\n    'trento',\n    'treviso',\n    'trieste',\n    'turin',\n    'udine',\n    'varese',\n    'venezia',\n    'verbano-cusio-ossola',\n    'vercelli',\n    'verona',\n    'vibo-valentia',\n    'vicenza',\n    'viterbo',\n  ],\n  mx: [\n    'baja-california',\n    'baja-california-sur',\n    'chiapas',\n    'chihuahua',\n    'coahuila-de-zaragoza',\n    'colima',\n    'distrito-federal',\n    'estado-de-mexico',\n    'guanajuato',\n    'guerrero',\n    'hidalgo',\n    'jalisco',\n    'michoacan',\n    'morelos',\n    'nayarit',\n    'nuevo-leon',\n    'oaxaca',\n    'puebla',\n    'queretaro',\n    'quintana-roo',\n    'sinaloa',\n    'sonora',\n    'tabasco',\n    'tamaulipas',\n    'tlaxcala',\n    'veracruz-llave',\n    'yucatan',\n  ],\n  nl: [\n    'drenthe',\n    'flevoland',\n    'friesland',\n    'gelderland',\n    'groningen',\n    'limburg',\n    'north-brabant',\n    'north-holland',\n    'overijssel',\n    'south-holland',\n    'utrecht',\n    'zeeland',\n  ],\n  pl: [\n    'bialystok',\n    'bielsko-biala',\n    'bydgoszcz',\n    'bytom',\n    'chorzow',\n    'czestochowa',\n    'dabrowa-gornicza',\n    'elblag',\n    'gdansk',\n    'gdynia',\n    'gliwice',\n    'gorzow-wielkopolski',\n    'jelenia-gora',\n    'kalisz',\n    'karpacz',\n    'katowice',\n    'kielce',\n    'kolobrzeg',\n    'konin',\n    'koszalin',\n    'krakow',\n    'krynica-zdroj',\n    'leba',\n    'legnica',\n    'leszno',\n    'lodz',\n    'lomianki',\n    'lubin',\n    'lublin',\n    'miedzyzdroje',\n    'mikolow',\n    'nowy-sacz',\n    'olsztyn',\n    'opole',\n    'piaseczno',\n    'pila',\n    'plock',\n    'poznan',\n    'radom',\n    'rybnik',\n    'rzeszow',\n    'siedlce',\n    'slupsk',\n    'sopot',\n    'sosnowiec',\n    'swinoujscie',\n    'szczawnica',\n    'szczecin',\n    'szklarska-poreba',\n    'tarnow',\n    'tomaszow-mazowiecki',\n    'torun',\n    'tychy',\n    'ustron',\n    'walbrzych',\n    'warszawa',\n    'wieliczka',\n    'wisla',\n    'wladyslawowo',\n    'wroclaw',\n    'zabrze',\n    'zakopane',\n    'zamosc',\n    'zielona-gora',\n  ],\n  pt: [\n    'aveiro',\n    'azores',\n    'beja',\n    'braga',\n    'braganca',\n    'castelo-branco',\n    'coimbra',\n    'evora',\n    'faro',\n    'gondomar',\n    'guarda',\n    'leiria',\n    'lisbon',\n    'madeira',\n    'portalegre',\n    'porto',\n    'porto-district',\n    'santarem',\n    'setubal',\n    'viana-do-castelo',\n    'vila-real',\n    'viseu',\n  ],\n  ro: [\n    'alba',\n    'arad',\n    'arges',\n    'bacau',\n    'bihor',\n    'bistrita',\n    'botosani',\n    'braila',\n    'brasov',\n    'bucharest',\n    'buzau',\n    'calarasi',\n    'caras',\n    'cluj',\n    'constanta',\n    'covasna',\n    'dambovita',\n    'dolj',\n    'galati',\n    'giurgiu',\n    'gorj',\n    'harghita',\n    'hunedoara',\n    'ialomita',\n    'iasi',\n    'ilfov',\n    'maramures',\n    'mehedinti',\n    'mures',\n    'neamt',\n    'olt',\n    'prahova',\n    'salaj',\n    'satu-mare',\n    'sibiu',\n    'suceava',\n    'teleorman',\n    'timis',\n    'tulcea',\n    'valcea',\n    'vaslui',\n    'vrancea',\n  ],\n  es: [\n    'alicante',\n    'asturias',\n    'barcelona',\n    'cantabria',\n    'illes-balears',\n    'islas-baleares',\n    'la-rioja',\n    'madrid',\n    'mallorca',\n    'murcia',\n    'navarra',\n    'pontevedra',\n    'tarragona',\n    'valencia',\n  ],\n  se: [\n    'east',\n    'greater-stockholm',\n    'north-central',\n    'northern-norrland',\n    'skane',\n    'south-central',\n    'south-east',\n    'south-west',\n    'southern-norrland',\n  ],\n  uk: [\n    'aberdeen-city',\n    'aberdeenshire',\n    'angus',\n    'antrim',\n    'argyll',\n    'avon',\n    'ayrshire',\n    'bedfordshire',\n    'berkshire',\n    'buckinghamshire',\n    'cambridgeshire',\n    'carmarthenshire',\n    'cheshire',\n    'cheshire-east',\n    'cheshire-west-and-chester',\n    'city-of-bristol',\n    'city-of-edinburgh',\n    'cleveland',\n    'clwyd',\n    'conwy',\n    'cornwall',\n    'county-antrim',\n    'county-durham',\n    'cumbria',\n    'derbyshire',\n    'devon',\n    'dorset',\n    'dorset-county',\n    'down',\n    'dyfed',\n    'east-lothian',\n    'east-riding-of-yorkshire',\n    'east-sussex',\n    'essex',\n    'fife',\n    'glasgow-cit',\n    'glasgow-city',\n    'gloucestershire',\n    'greater-london',\n    'gwent',\n    'gwynedd',\n    'hampshire',\n    'hertfordshire',\n    'hertfordshire-county',\n    'herts',\n    'highland',\n    'inverness-shire',\n    'isle-of-wight',\n    'kent',\n    'lanarkshir',\n    'lanarkshire',\n    'lancashir',\n    'lancashire',\n    'leicestershire',\n    'lincolnshire',\n    'londo',\n    'london',\n    'lothian',\n    'merseysid',\n    'merseyside',\n    'mid-glamorgan',\n    'middlesex',\n    'midlothian',\n    'norfolk',\n    'north-humberside',\n    'north-somerset',\n    'north-yorkshire',\n    'northamptonshire',\n    'northumberland',\n    'nottinghamshire',\n    'oxfordshire',\n    'pembrokeshire',\n    'perthshire',\n    'powys',\n    'renfrewshire',\n    'shropshire',\n    'somerset',\n    'south-glamorgan',\n    'south-humberside',\n    'south-yorkshir',\n    'south-yorkshire',\n    'staffordshire',\n    'stirlingshire',\n    'suffolk',\n    'surrey',\n    'sussex',\n    'tyne-and-wear',\n    'united-kingdom',\n    'warwickshire',\n    'west-berkshire',\n    'west-glamorgan',\n    'west-lothian',\n    'west-midland',\n    'west-midlands',\n    'west-sussex',\n    'west-yorkshire',\n    'wiltshire',\n    'worcestershire',\n    'yorkshire',\n  ],\n  us: [\n    'ak',\n    'al',\n    'ar',\n    'az',\n    'ca',\n    'co',\n    'ct',\n    'dc',\n    'de',\n    'fl',\n    'ga',\n    'hi',\n    'ia',\n    'id',\n    'il',\n    'in',\n    'ks',\n    'ky',\n    'la',\n    'ma',\n    'md',\n    'me',\n    'mi',\n    'mn',\n    'mo',\n    'ms',\n    'nc',\n    'nd',\n    'ne',\n    'nh',\n    'nj',\n    'nm',\n    'nv',\n    'ny',\n    'oh',\n    'ok',\n    'or',\n    'pa',\n    'ri',\n    'sc',\n    'sd',\n    'tn',\n    'tx',\n    'ut',\n    'va',\n    'vt',\n    'wa',\n    'wi',\n    'wv',\n    'wy',\n  ],\n};\n",
+    "static": true,
+    "longname": "/Users/kartik/Projects/fakexy.js/consts.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "CREDITCARDS",
+    "memberof": "fakexy.js/consts.js",
+    "static": true,
+    "longname": "fakexy.js/consts.js~CREDITCARDS",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/consts.js",
+    "importStyle": "{CREDITCARDS}",
+    "description": "List of supported credit card brands",
+    "lineNumber": 7,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@default",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "COUNTRIES",
+    "memberof": "fakexy.js/consts.js",
+    "static": true,
+    "longname": "fakexy.js/consts.js~COUNTRIES",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/consts.js",
+    "importStyle": "{COUNTRIES}",
+    "description": "List of supported countries",
+    "lineNumber": 25,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@default",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "STATES",
+    "memberof": "fakexy.js/consts.js",
+    "static": true,
+    "longname": "fakexy.js/consts.js~STATES",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/consts.js",
+    "importStyle": "{STATES}",
+    "description": "List of supported states per country",
+    "lineNumber": 55,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@default",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "{countryCode: string[]}"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "fakexy.js/main.js",
+    "content": "/** @module fakexy */\n\nimport axios from 'axios';\nimport * as cheerio from 'cheerio';\nimport { CREDITCARDS, COUNTRIES, STATES } from './consts.js';\n\nconst FAKER_URL = 'https://www.fakexy.com/';\n\nasync function getHtml({ prefix, suffix, generator }) {\n  const requestUrl = `${FAKER_URL}${\n    prefix ? `${prefix}-` : ''\n  }fake-${generator}-generator${suffix ? `-${suffix}` : ''}`;\n\n  try {\n    const response = await axios.get(requestUrl);\n    const { data } = response;\n\n    return data;\n  } catch (error) {\n    console.error(error);\n    throw error;\n  }\n}\n\nasync function getObjectFromHtml({ html, listQuery, listItemQuery }) {\n  const table = {};\n\n  const $ = cheerio.load(html);\n\n  const listDom = $(listQuery);\n  const listElems = listDom.find(listItemQuery);\n\n  listElems.each((i, listElem) => {\n    const listItemMain = $(listElem).find(':nth-child(1)').text().trim();\n    const listItemSub = $(listElem).find(':nth-child(2)').text().trim();\n\n    table[listItemMain] = listItemSub;\n  });\n\n  return table;\n}\n\n/**\n * @typedef {Object.<string, string>} Address\n */\n\n/**\n * Returns a random fake address.\n * @function\n * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return addresses in the specified country and state\n * @returns {Address}\n */\nexport const getAddress = async ({ countryCode, stateCode }) => {\n  if (\n    !COUNTRIES.includes(countryCode) ||\n    (stateCode && !STATES[countryCode].includes(stateCode))\n  ) {\n    throw new Error('Invalid countryCode or stateCode');\n  }\n\n  const prefix = stateCode ? countryCode : '';\n  const suffix = stateCode || countryCode;\n  const generator = 'address';\n  const html = await getHtml({ prefix, suffix, generator });\n\n  const listQuery = '#cointainer .box:nth-of-type(1) table';\n  const listItemQuery = 'tr';\n  const address = await getObjectFromHtml({ html, listQuery, listItemQuery });\n\n  return address;\n};\n\n/**\n * @typedef {Object.<string, string>} Profile\n */\n\n/**\n * Returns a random fake profile.\n * @function\n * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return profiles in the specified country and state\n * @returns {Profile}\n */\nexport const getProfile = async ({ countryCode, stateCode }) => {\n  if (\n    !COUNTRIES.includes(countryCode) ||\n    (stateCode && !STATES[countryCode].includes(stateCode))\n  ) {\n    throw new Error('Invalid countryCode or stateCode');\n  }\n\n  const prefix = stateCode ? countryCode : '';\n  const suffix = stateCode || countryCode;\n  const generator = 'name';\n  const html = await getHtml({ prefix, suffix, generator });\n\n  const listQuery = '#cointainer .box:nth-of-type(1) table';\n  const listItemQuery = 'tr';\n  const profile = await getObjectFromHtml({ html, listQuery, listItemQuery });\n\n  return profile;\n};\n\n/**\n * @typedef {Object.<string, string>} Phonenumber\n */\n\n/**\n * Returns a random fake phonenumber.\n * @function\n * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return phonenumbers in the specified country and state\n * @returns {Phonenumber}\n */\nexport const getPhonenumbers = async ({ countryCode, stateCode }) => {\n  if (\n    !COUNTRIES.includes(countryCode) ||\n    (stateCode && !STATES[countryCode].includes(stateCode))\n  ) {\n    throw new Error('Invalid countryCode or stateCode');\n  }\n\n  const prefix = stateCode ? countryCode : '';\n  const suffix = stateCode || countryCode;\n  const generator = 'phonenumber';\n  const html = await getHtml({ prefix, suffix, generator });\n\n  const listQuery = '.core.ul-list';\n  const listItemQuery = '.li-item';\n  const phonenumbers = await getObjectFromHtml({\n    html,\n    listQuery,\n    listItemQuery,\n  });\n\n  return phonenumbers;\n};\n\n/**\n * @typedef {Object.<string, string>} Zipcode\n */\n\n/**\n * Returns a random fake zipcode.\n * @function\n * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return zipcodes in the specified country and state\n * @returns {Zipcode}\n */\nexport const getZipcodes = async ({ countryCode, stateCode }) => {\n  if (\n    !COUNTRIES.includes(countryCode) ||\n    (stateCode && !STATES[countryCode].includes(stateCode))\n  ) {\n    throw new Error('Invalid countryCode or stateCode');\n  }\n\n  const prefix = stateCode ? countryCode : '';\n  const suffix = stateCode || countryCode;\n  const generator = 'zipcode';\n  const html = await getHtml({ prefix, suffix, generator });\n\n  const listQuery = '.core.ul-list';\n  const listItemQuery = '.li-item';\n  const zipcodes = await getObjectFromHtml({\n    html,\n    listQuery,\n    listItemQuery,\n  });\n\n  return zipcodes;\n};\n\n/**\n * @typedef {Object} Creditcard\n */\n\n/**\n * Returns a random fake credit card.\n * @function\n * @param {{creditcardBrand: string}} [creditcardBrand] - If specified, return a credit card with the specified brand\n * @returns {Creditcard}\n */\nexport const getCreditcard = async ({ creditcardBrand }) => {\n  if (creditcardBrand && !CREDITCARDS.includes(creditcardBrand)) {\n    throw new Error('Invalid creditcard');\n  }\n\n  const prefix = '';\n  const suffix = creditcardBrand || '';\n  const generator = 'creditcard';\n  const html = await getHtml({ prefix, suffix, generator });\n\n  const listQuery = '#cointainer .box:nth-of-type(1) table';\n  const listItemQuery = 'tr';\n  const creditcards = await getObjectFromHtml({\n    html,\n    listQuery,\n    listItemQuery,\n  });\n\n  return creditcards;\n};\n\nexport { CREDITCARDS };\nexport { COUNTRIES };\nexport { STATES };\n",
+    "static": true,
+    "longname": "/Users/kartik/Projects/fakexy.js/main.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "FAKER_URL",
+    "memberof": "fakexy.js/main.js",
+    "static": true,
+    "longname": "fakexy.js/main.js~FAKER_URL",
+    "access": "public",
+    "export": false,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "getHtml",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getHtml",
+    "access": "public",
+    "export": false,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"prefix\": *, \"suffix\": *, \"generator\": *}"
+        ],
+        "defaultRaw": {
+          "prefix": null,
+          "suffix": null,
+          "generator": null
+        },
+        "defaultValue": "{\"prefix\":null,\"suffix\":null,\"generator\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "getObjectFromHtml",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getObjectFromHtml",
+    "access": "public",
+    "export": false,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"html\": *, \"listQuery\": *, \"listItemQuery\": *}"
+        ],
+        "defaultRaw": {
+          "html": null,
+          "listQuery": null,
+          "listItemQuery": null
+        },
+        "defaultValue": "{\"html\":null,\"listQuery\":null,\"listItemQuery\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "typedef",
+    "name": "Address",
+    "memberof": "fakexy.js/main.js",
+    "static": true,
+    "longname": "fakexy.js/main.js~Address",
+    "access": "public",
+    "description": "",
+    "type": {
+      "types": [
+        "Object.<string, string>"
+      ],
+      "optional": false,
+      "name": "Address"
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "getAddress",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getAddress",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": "{getAddress}",
+    "description": "Returns a random fake address.",
+    "lineNumber": 53,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Address}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{countryCode: string, stateCode: string}"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "locale",
+        "description": "If specified, return addresses in the specified country and state"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Address"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "typedef",
+    "name": "Profile",
+    "memberof": "fakexy.js/main.js",
+    "static": true,
+    "longname": "fakexy.js/main.js~Profile",
+    "access": "public",
+    "description": "",
+    "type": {
+      "types": [
+        "Object.<string, string>"
+      ],
+      "optional": false,
+      "name": "Profile"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "getProfile",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getProfile",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": "{getProfile}",
+    "description": "Returns a random fake profile.",
+    "lineNumber": 83,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Profile}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{countryCode: string, stateCode: string}"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "locale",
+        "description": "If specified, return profiles in the specified country and state"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Profile"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "typedef",
+    "name": "Phonenumber",
+    "memberof": "fakexy.js/main.js",
+    "static": true,
+    "longname": "fakexy.js/main.js~Phonenumber",
+    "access": "public",
+    "description": "",
+    "type": {
+      "types": [
+        "Object.<string, string>"
+      ],
+      "optional": false,
+      "name": "Phonenumber"
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "getPhonenumbers",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getPhonenumbers",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": "{getPhonenumbers}",
+    "description": "Returns a random fake phonenumber.",
+    "lineNumber": 113,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Phonenumber}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{countryCode: string, stateCode: string}"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "locale",
+        "description": "If specified, return phonenumbers in the specified country and state"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Phonenumber"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "typedef",
+    "name": "Zipcode",
+    "memberof": "fakexy.js/main.js",
+    "static": true,
+    "longname": "fakexy.js/main.js~Zipcode",
+    "access": "public",
+    "description": "",
+    "type": {
+      "types": [
+        "Object.<string, string>"
+      ],
+      "optional": false,
+      "name": "Zipcode"
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "getZipcodes",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getZipcodes",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": "{getZipcodes}",
+    "description": "Returns a random fake zipcode.",
+    "lineNumber": 147,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Zipcode}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{countryCode: string, stateCode: string}"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "locale",
+        "description": "If specified, return zipcodes in the specified country and state"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Zipcode"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "typedef",
+    "name": "Creditcard",
+    "memberof": "fakexy.js/main.js",
+    "static": true,
+    "longname": "fakexy.js/main.js~Creditcard",
+    "access": "public",
+    "description": "",
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Creditcard"
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "getCreditcard",
+    "memberof": "fakexy.js/main.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "fakexy.js/main.js~getCreditcard",
+    "access": "public",
+    "export": true,
+    "importPath": "fakexy/fakexy.js/main.js",
+    "importStyle": "{getCreditcard}",
+    "description": "Returns a random fake credit card.",
+    "lineNumber": 181,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Creditcard}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{creditcardBrand: string}"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "creditcardBrand",
+        "description": "If specified, return a credit card with the specified brand"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Creditcard"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# fakexy.js\n\nA wrapper over fakexy.com\n\n## Install\n\n```\nnpm install fakexy\n```\n\n## Usage\n\n```javascript\nimport {\n    getAddress,\n    getProfile,\n    getPhonenumbers,\n    getZipcodes,\n    getCreditcard\n} from fakexy;\n\nconsole.log(getAddress({ countryCode: 'us' }));\n// {\n//   Street: '887 Battlefield Pkwy',\n//   'City/Town': 'Fort Oglethorpe',\n//   'State/Province/Region': 'Georgia',\n//   'Zip/Postal Code': '30742',\n//   'Phone Number': '(706) 861-3337',\n//   Country: 'United States',\n//   Latitude: '34.95409',\n//   Longitude: '-85.251194'\n// }\n\nconsole.log(getProfile({ countryCode: 'us', stateCode: 'ca' }));\n// {\n//   'Full Name': 'Rhianna Keebler',\n//   Gender: 'female',\n//   Birthday: '1975-01-15',\n//   'Social Security Number': '551-99-4513'\n// }\n\nconsole.log(getPhonenumbers({ countryCode: 'us', stateCode: 'ca' }));\n// {\n//   '(510) 879-7026': '(CA, Emeryville)',\n//   '(714) 692-8394': '(CA, Yorba Linda)',\n//   '(760) 722-7031': '(CA, Oceanside)',\n//   '(415) 931-9103': '(CA, San Francisco)',\n//   '(707) 544-3833': '(CA, Santa Rosa)',\n//   '': '(CA, Pomona)',\n//   '(209) 526-9274': '(CA, Modesto)',\n//   '(661) 257-3233': '(CA, Castaic)',\n//   '(805) 693-4331': '(CA, Solvang)',\n//   '(213) 280-1152': '(CA, Studio City)',\n//   '(661) 266-9464': '(CA, Palmdale)',\n//   '(323) 569-4949': '(CA, South Gate)'\n// }\n\nconsole.log(getZipcodes({ countryCode: 'us', stateCode: 'ca' }));\n// {\n//   '90250': '(CA, Hawthorne)',\n//   '90504': '(CA, Torrance)',\n//   '90807': '(CA, Long Beach)',\n//   '91010': '(CA, Duarte)',\n//   '91104': '(CA, Pasadena)',\n//   '91204': '(CA, Glendale)',\n//   '92243': '(CA, El Centro)',\n//   '92376': '(CA, Rialto)',\n//   '92653': '(CA, Laguna Hills)',\n//   '93465': '(CA, Templeton)',\n//   '94063': '(CA, Redwood City)'\n// }\n\nconsole.log(getCredicard({ creditcardBrand: 'visa' }));\n// {\n//   'Credit card brand': 'Visa',\n//   'Credit card number': '4539780566426911',\n//   Expire: '2023/10',\n//   CVV: '998'\n// }\n```\n\n## API\n\n[Docs](https://www.kartikanand.com/fakexy.js/identifiers.html)\n",
+    "longname": "/Users/kartik/Projects/fakexy.js/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"fakexy\",\n  \"version\": \"2.1.0\",\n  \"description\": \"A wrapper over fakexy.com\",\n  \"type\": \"module\",\n  \"main\": \"./main.js\",\n  \"exports\": \"./main.js\",\n  \"scripts\": {\n    \"test\": \"mocha\",\n    \"docs\": \"esdoc\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/kartikanand/fakexy.js.git\"\n  },\n  \"keywords\": [\n    \"fakexy\",\n    \"fake\",\n    \"address\",\n    \"fake address generator\",\n    \"fake names\",\n    \"fake cards\",\n    \"faker\",\n    \"fake phone numbers\",\n    \"fake zip codes\"\n  ],\n  \"author\": \"Kartik Anand\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/kartikanand/fakexy.js/issues\"\n  },\n  \"homepage\": \"https://github.com/kartikanand/fakexy.js#readme\",\n  \"devDependencies\": {\n    \"chai\": \"^4.3.4\",\n    \"chai-as-promised\": \"^7.1.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^8.5.0\",\n    \"eslint-config-airbnb-base\": \"^15.0.0\",\n    \"eslint-config-prettier\": \"^8.3.0\",\n    \"eslint-plugin-import\": \"^2.25.3\",\n    \"eslint-plugin-mocha\": \"^10.0.3\",\n    \"eslint-plugin-prettier\": \"^4.0.0\",\n    \"mocha\": \"^9.1.3\",\n    \"prettier\": \"^2.5.1\"\n  },\n  \"dependencies\": {\n    \"axios\": \"^0.24.0\",\n    \"cheerio\": \"^1.0.0-rc.10\"\n  }\n}\n",
+    "longname": "/Users/kartik/Projects/fakexy.js/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

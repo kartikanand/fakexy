@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">fakexy.js/main.js | fakexy</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A wrapper over fakexy.com"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fakexy"><meta property="twitter:description" content="A wrapper over fakexy.com"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/kartikanand/fakexy.js"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getAddress">getAddress</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCreditcard">getCreditcard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPhonenumbers">getPhonenumbers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getProfile">getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getZipcodes">getZipcodes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-COUNTRIES">COUNTRIES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CREDITCARDS">CREDITCARDS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STATES">STATES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Address">Address</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Creditcard">Creditcard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Phonenumber">Phonenumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Profile">Profile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Zipcode">Zipcode</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">fakexy.js/main.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/** @module fakexy */
+
+import axios from &apos;axios&apos;;
+import * as cheerio from &apos;cheerio&apos;;
+import { CREDITCARDS, COUNTRIES, STATES } from &apos;./consts.js&apos;;
+
+const FAKER_URL = &apos;https://www.fakexy.com/&apos;;
+
+async function getHtml({ prefix, suffix, generator }) {
+  const requestUrl = `${FAKER_URL}${
+    prefix ? `${prefix}-` : &apos;&apos;
+  }fake-${generator}-generator${suffix ? `-${suffix}` : &apos;&apos;}`;
+
+  try {
+    const response = await axios.get(requestUrl);
+    const { data } = response;
+
+    return data;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+}
+
+async function getObjectFromHtml({ html, listQuery, listItemQuery }) {
+  const table = {};
+
+  const $ = cheerio.load(html);
+
+  const listDom = $(listQuery);
+  const listElems = listDom.find(listItemQuery);
+
+  listElems.each((i, listElem) =&gt; {
+    const listItemMain = $(listElem).find(&apos;:nth-child(1)&apos;).text().trim();
+    const listItemSub = $(listElem).find(&apos;:nth-child(2)&apos;).text().trim();
+
+    table[listItemMain] = listItemSub;
+  });
+
+  return table;
+}
+
+/**
+ * @typedef {Object.&lt;string, string&gt;} Address
+ */
+
+/**
+ * Returns a random fake address.
+ * @function
+ * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return addresses in the specified country and state
+ * @returns {Address}
+ */
+export const getAddress = async ({ countryCode, stateCode }) =&gt; {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error(&apos;Invalid countryCode or stateCode&apos;);
+  }
+
+  const prefix = stateCode ? countryCode : &apos;&apos;;
+  const suffix = stateCode || countryCode;
+  const generator = &apos;address&apos;;
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = &apos;#cointainer .box:nth-of-type(1) table&apos;;
+  const listItemQuery = &apos;tr&apos;;
+  const address = await getObjectFromHtml({ html, listQuery, listItemQuery });
+
+  return address;
+};
+
+/**
+ * @typedef {Object.&lt;string, string&gt;} Profile
+ */
+
+/**
+ * Returns a random fake profile.
+ * @function
+ * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return profiles in the specified country and state
+ * @returns {Profile}
+ */
+export const getProfile = async ({ countryCode, stateCode }) =&gt; {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error(&apos;Invalid countryCode or stateCode&apos;);
+  }
+
+  const prefix = stateCode ? countryCode : &apos;&apos;;
+  const suffix = stateCode || countryCode;
+  const generator = &apos;name&apos;;
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = &apos;#cointainer .box:nth-of-type(1) table&apos;;
+  const listItemQuery = &apos;tr&apos;;
+  const profile = await getObjectFromHtml({ html, listQuery, listItemQuery });
+
+  return profile;
+};
+
+/**
+ * @typedef {Object.&lt;string, string&gt;} Phonenumber
+ */
+
+/**
+ * Returns a random fake phonenumber.
+ * @function
+ * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return phonenumbers in the specified country and state
+ * @returns {Phonenumber}
+ */
+export const getPhonenumbers = async ({ countryCode, stateCode }) =&gt; {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error(&apos;Invalid countryCode or stateCode&apos;);
+  }
+
+  const prefix = stateCode ? countryCode : &apos;&apos;;
+  const suffix = stateCode || countryCode;
+  const generator = &apos;phonenumber&apos;;
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = &apos;.core.ul-list&apos;;
+  const listItemQuery = &apos;.li-item&apos;;
+  const phonenumbers = await getObjectFromHtml({
+    html,
+    listQuery,
+    listItemQuery,
+  });
+
+  return phonenumbers;
+};
+
+/**
+ * @typedef {Object.&lt;string, string&gt;} Zipcode
+ */
+
+/**
+ * Returns a random fake zipcode.
+ * @function
+ * @param {{countryCode: string, stateCode: string}} [locale] - If specified, return zipcodes in the specified country and state
+ * @returns {Zipcode}
+ */
+export const getZipcodes = async ({ countryCode, stateCode }) =&gt; {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error(&apos;Invalid countryCode or stateCode&apos;);
+  }
+
+  const prefix = stateCode ? countryCode : &apos;&apos;;
+  const suffix = stateCode || countryCode;
+  const generator = &apos;zipcode&apos;;
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = &apos;.core.ul-list&apos;;
+  const listItemQuery = &apos;.li-item&apos;;
+  const zipcodes = await getObjectFromHtml({
+    html,
+    listQuery,
+    listItemQuery,
+  });
+
+  return zipcodes;
+};
+
+/**
+ * @typedef {Object} Creditcard
+ */
+
+/**
+ * Returns a random fake credit card.
+ * @function
+ * @param {{creditcardBrand: string}} [creditcardBrand] - If specified, return a credit card with the specified brand
+ * @returns {Creditcard}
+ */
+export const getCreditcard = async ({ creditcardBrand }) =&gt; {
+  if (creditcardBrand &amp;&amp; !CREDITCARDS.includes(creditcardBrand)) {
+    throw new Error(&apos;Invalid creditcard&apos;);
+  }
+
+  const prefix = &apos;&apos;;
+  const suffix = creditcardBrand || &apos;&apos;;
+  const generator = &apos;creditcard&apos;;
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = &apos;#cointainer .box:nth-of-type(1) table&apos;;
+  const listItemQuery = &apos;tr&apos;;
+  const creditcards = await getObjectFromHtml({
+    html,
+    listQuery,
+    listItemQuery,
+  });
+
+  return creditcards;
+};
+
+export { CREDITCARDS };
+export { COUNTRIES };
+export { STATES };
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

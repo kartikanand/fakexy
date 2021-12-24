@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: main.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: main.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @module fakexy */
+
+import axios from 'axios';
+import * as cheerio from 'cheerio';
+
+// import { parse } from 'node-html-parser';
+
+import { CREDITCARDS, COUNTRIES, STATES } from './consts.js';
+
+const FAKER_URL = 'https://www.fakexy.com/';
+
+async function getHtml({ prefix, suffix, generator }) {
+  const requestUrl = `${FAKER_URL}${
+    prefix ? `${prefix}-` : ''
+  }fake-${generator}-generator${suffix ? `-${suffix}` : ''}`;
+
+  try {
+    const response = await axios.get(requestUrl);
+    const { data } = response;
+
+    return data;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+}
+
+async function getObjectFromHtml({ html, listQuery, listItemQuery }) {
+  const table = {};
+
+  const $ = cheerio.load(html);
+
+  const listDom = $(listQuery);
+  const listElems = listDom.find(listItemQuery);
+
+  listElems.each((i, listElem) => {
+    const listItemMain = $(listElem).find(':nth-child(1)').text().trim();
+    const listItemSub = $(listElem).find(':nth-child(2)').text().trim();
+
+    table[listItemMain] = listItemSub;
+  });
+
+  return table;
+}
+
+/**
+ * @typedef {Object.&lt;string, string>} Address
+ */
+
+/**
+ * Returns a random fake address.
+ * @function
+ * @param {string} [countryCode] - If specified, return addresses in the specified country
+ * @param {string} [stateCode] - If specified, return addresses in the specified state
+ * @returns {Address}
+ */
+export const getAddress = async ({ countryCode, stateCode }) => {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error('Invalid countryCode or stateCode');
+  }
+
+  const prefix = stateCode ? countryCode : '';
+  const suffix = stateCode || countryCode;
+  const generator = 'address';
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = '#cointainer .box:nth-of-type(1) table';
+  const listItemQuery = 'tr';
+  const address = await getObjectFromHtml({ html, listQuery, listItemQuery });
+
+  return address;
+};
+
+/**
+ * @typedef {Object.&lt;string, string>} Profile
+ */
+
+/**
+ * Returns a random fake profile.
+ * @function
+ * @param {string} [countryCode] - If specified, return profiles in the specified country
+ * @param {string} [stateCode] - If specified, return profiles in the specified state
+ * @returns {Profile}
+ */
+export const getProfile = async ({ countryCode, stateCode }) => {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error('Invalid countryCode or stateCode');
+  }
+
+  const prefix = stateCode ? countryCode : '';
+  const suffix = stateCode || countryCode;
+  const generator = 'name';
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = '#cointainer .box:nth-of-type(1) table';
+  const listItemQuery = 'tr';
+  const profile = await getObjectFromHtml({ html, listQuery, listItemQuery });
+
+  return profile;
+};
+
+/**
+ * @typedef {Object.&lt;string, string>} Phonenumber
+ */
+
+/**
+ * Returns a random fake phonenumber.
+ * @function
+ * @param {string} [countryCode] - If specified, return phonenumbers in the specified country
+ * @param {string} [stateCode] - If specified, return phonenumbers in the specified state
+ * @returns {Phonenumber}
+ */
+export const getPhonenumbers = async ({ countryCode, stateCode }) => {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error('Invalid countryCode or stateCode');
+  }
+
+  const prefix = stateCode ? countryCode : '';
+  const suffix = stateCode || countryCode;
+  const generator = 'phonenumber';
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = '.core.ul-list';
+  const listItemQuery = '.li-item';
+  const phonenumbers = await getObjectFromHtml({
+    html,
+    listQuery,
+    listItemQuery,
+  });
+
+  return phonenumbers;
+};
+
+/**
+ * @typedef {Object.&lt;string, string>} Zipcode
+ */
+
+/**
+ * Returns a random fake zipcode.
+ * @function
+ * @param {string} [countryCode] - If specified, return zipcodes in the specified country
+ * @param {string} [stateCode] - If specified, return zipcodes in the specified state
+ * @returns {Zipcode}
+ */
+export const getZipcodes = async ({ countryCode, stateCode }) => {
+  if (
+    !COUNTRIES.includes(countryCode) ||
+    (stateCode &amp;&amp; !STATES[countryCode].includes(stateCode))
+  ) {
+    throw new Error('Invalid countryCode or stateCode');
+  }
+
+  const prefix = stateCode ? countryCode : '';
+  const suffix = stateCode || countryCode;
+  const generator = 'zipcode';
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = '.core.ul-list';
+  const listItemQuery = '.li-item';
+  const zipcodes = await getObjectFromHtml({
+    html,
+    listQuery,
+    listItemQuery,
+  });
+
+  return zipcodes;
+};
+
+/**
+ * @typedef {Object} Creditcard
+ */
+
+/**
+ * Returns a random fake credit card.
+ * @function
+ * @param {string} [creditcardBrand] - If specified, return a credit card with the specified brand
+ * @returns {Creditcard}
+ */
+export const getCreditcard = async ({ creditcardBrand }) => {
+  if (creditcardBrand &amp;&amp; !CREDITCARDS.includes(creditcardBrand)) {
+    throw new Error('Invalid creditcard');
+  }
+
+  const prefix = '';
+  const suffix = creditcardBrand || '';
+  const generator = 'creditcard';
+  const html = await getHtml({ prefix, suffix, generator });
+
+  const listQuery = '#cointainer .box:nth-of-type(1) table';
+  const listItemQuery = 'tr';
+  const creditcards = await getObjectFromHtml({
+    html,
+    listQuery,
+    listItemQuery,
+  });
+
+  return creditcards;
+};
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-fakexy.html">fakexy</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.7</a> on Thu Dec 23 2021 11:13:02 GMT-0800 (Pacific Standard Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
