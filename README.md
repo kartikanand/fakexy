@@ -81,4 +81,4 @@ console.log(getCredicard({ creditcardBrand: 'visa' }));
 
 ## API
 
-[Docs](https://www.kartikanand.com/fakexy.js/identifiers.html)
+[Docs](https://www.kartikanand.com/fakexy/identifiers.html)
